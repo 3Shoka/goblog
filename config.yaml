@@ -40,7 +40,7 @@ params:
     article:
         math: false
         license:
-            enabled: true
+            enabled: false
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
@@ -74,16 +74,16 @@ params:
 
     defaultImage:
         opengraph:
-            enabled: false
+            enabled: true
             local: false
-            src:
+            src: https://www.gravatar.com/avatar/a4adee4ab6f26d519302de965c03e4f1?s=250
 
     colorScheme:
         # Display toggle
         toggle: true
 
         # Available values: auto, light, dark
-        default: auto
+        default: dark
 
     imageProcessing:
         cover:
@@ -131,3 +131,7 @@ related:
 markup:
     highlight:
         noClasses: false
+
+    goldmark:
+        renderer:
+            unsafe: true
