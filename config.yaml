@@ -28,7 +28,7 @@ params:
 
     dateFormat:
         published: 02 Jan 2006
-        lastUpdated: 02 Jan 2006 15:04
+        lastUpdated: 02 Jan 2006 15:04 WIB
 
     sidebar:
         emoji: 👻️
